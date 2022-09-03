@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css
+    ">
+    <title>Urna-eletronica</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="branco">
+            <div class="cinzaClaro">
+                <p>Número:</p>
+                <form action="">
+                    <input size="1" id="campo1" value="" maxlength="1" type="text" readonly="readonly"/>
+                    <input size="1" id="campo2" value="" maxlength="1" type="text" readonly="readonly"/>
+
+                </form>
+                <input class="resultado" type="submit" value="resultado" onclick="resultado()">
+
+
+                <div id="res">
+                    Clique no resultado para ver o resultado da votação
+                </div>
+
+                <div>
+                    <img id="imagem" src="./candidato.jpg" alt="Foto do candidato">
+                </div>
+
+                <div id="res1">
+                    
+                </div>
+
+            </div>
+            <div class="cinzaEscuro">
+                <b>JUSTIÇA<br>ELEITORAL</b> 
+            </div>
+            <div class="preto">
+                <button class="bnt click" onclick="inserir(1)">1</button>
+                <button class="bnt click" onclick="inserir(2)">2</button>
+                <button class="bnt click" onclick="inserir(3)">3</button>
+                <button class="bnt click" onclick="inserir(4)">4</button>
+                <button class="bnt click" onclick="inserir(5)">5</button>
+                <button class="bnt click" onclick="inserir(6)">6</button>
+                <button class="bnt click" onclick="inserir(7)">7</button>
+                <button class="bnt click" onclick="inserir(8)">8</button>
+                <button class="bnt click" onclick="inserir(9)">9</button>
+                <button class="bnt click" onclick="inserir(0)">0</button>
+                <div class="teclado2">
+                    <button class="brancobtn  click" onclick="branco()">BRANCO</button>
+                    <button class="laranja  click" onclick="corrige()">CORRIGE</button>
+                    <button class="verde" onclick="votar()">CONFIRMA</button>
+                </div>
+            </div>
+        </div>
+        
+    </div> 
+
+    <div class="popup-wrapper">
+        <div class="popup">
+            <div class="popup-close">X</div>
+            <div class="popup-content" id="res2">
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-wrapper-01">
+        <div class="popup-01">
+            <div class="popup-close-01">X</div>
+            <div class="popup-content-01" id="res3">
+               
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    text-align: center;
+    background-color: #e1e1e1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  img{
+    right: 0;
+    position: absolute;
+    height: 150px;
+    width: 105px;
+    border: solid 1px black;
+  }
+  .cinzaEscuro{
+    top: 50%;
+    margin-top: -200px;
+    width: 250px;
+    height: 60px;
+    right: 20px;
+    position: absolute;
+  }
+  b{
+    position: relative;
+    top: 10px;
+  }
+  .preto{
+    border: solid 2px;
+    top: 50%;
+    margin-top: -138px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 300px;
+    width: 247px;
+    right: 200px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .cinzaClaro{
+    position: absolute;
+    border: solid 1px;
+    left: 50%;
+    margin-left: -370px;
+    top: 50%;
+    margin-top: -195px;
+    position: absolute;
+    height: 360px;
+    width: 700px;
+    background-color: snow;
+    border-radius: 5px;
+  }
+
+  .cinzaClaro p {
+    margin-top: 10px;
+  }
+  
+  .cinzaEscuro{
+    background-color: #fff;
+    margin-right: 181px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: -196px;
+  }
+  .bnt{
+    margin: 10px;
+    background-color: black;
+    color: snow;
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    box-shadow: 5px 5px 5px black;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .bnt:hover {
+    background: #fff;
+    color: #000;
+    border: none;
+  }
+
+
+  .teclado2{
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    color: black;
+  }
+  .brancobtn{
+    height: 40px;
+    width: 75px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .laranja{
+    height: 40px;
+    width: 75px;
+    background-color: #E67401;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .verde{
+    height: 40px;
+    width: 80px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .verde:hover, .laranja:hover, .brancobtn:hover {
+    transform: scale(1.1);
+  }
+
+  .resultado {
+    margin-top: 20px;
+    width: 75px;
+    height: 40px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .resultado:hover {
+    transform: scale(1.1);
+  }
+
+  #res {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #res1 {
+    margin-top: 120px;
+  }
+
+  #foto {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#imagem {
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 270px;
+  margin-top: 10px;
+}
+
+/* Primeiro popup */
+.popup-wrapper {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popup {
+  font-family: Arial;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 10% auto;
+  padding: 20px;
+  background: crimson;
+  color: #fff;
+  position: relative;
+  top: 150px;
+}
+
+.popup a {
+  color: white;
+  cursor: pointer;
+  padding: 6px 10px;
+  text-decoration: none;
+  background: crimson;
+}
+
+.popup-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* Segundo popup */
+
+/* Primeiro popup */
+.popup-wrapper-01 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popup-01 {
+  font-family: Arial;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 10% auto;
+  padding: 20px;
+  background: crimson;
+  color: #fff;
+  position: relative;
+  top: 150px;
+}
+
+.popup-close-01 {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
